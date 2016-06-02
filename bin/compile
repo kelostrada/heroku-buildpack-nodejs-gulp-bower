@@ -112,7 +112,7 @@ echo $node_version > $build_dir/.heroku/node-version
 # cache, for the sake of heroku-buildpack-multi apps.
 # rm -rf $cache_dir/node_modules # (for apps still on the older caching strategy)
 # rm -rf $cache_dir/node
-# mkdir -p $cache_dir/node
+mkdir -p $cache_dir/node
 
 # If app has a node_modules directory, cache it.
 if test -d $build_dir/node_modules; then
