@@ -82,6 +82,11 @@ fi
   npm install -g gulp
 )
 
+# Install wrench
+(
+  npm install wrench
+)
+
 # Scope config var availability only to `npm install`
 (
   if [ -d "$env_dir" ]; then
