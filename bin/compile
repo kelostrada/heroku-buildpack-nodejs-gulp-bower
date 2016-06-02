@@ -75,6 +75,13 @@ elif test -d $cache_dir/node/node_modules; then
 
 fi
 
+# Install bower and gulp globally
+(
+  echo "Installing bower and gulp globally"
+  npm install -g bower
+  npm install -g gulp
+)
+
 # Scope config var availability only to `npm install`
 (
   if [ -d "$env_dir" ]; then

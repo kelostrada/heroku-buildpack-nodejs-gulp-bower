@@ -4,7 +4,7 @@ Heroku Buildpack for Node.js, gulp.js, and bower
 Usage
 -----
 
-- Set your Heroku app's buildpack URL to `https://github.com/davidmfoley/heroku-buildpack-nodejs-gulp-bower.git`. To be safe, you should really fork this and use your fork's URL.
+- Set your Heroku app's buildpack URL to `https://github.com/kelostrada/heroku-buildpack-nodejs-gulp-bower.git`. To be safe, you should really fork this and use your fork's URL.
 - Run `heroku labs:enable user-env-compile` to enable environment variable support
 - Run `heroku config:set NODE_ENV=production` to set your environment to `production` (or any other name)
 - Add a Gulp task called `heroku:production` that builds your app
