@@ -40,10 +40,10 @@ cd $build_dir
 
 # Install missing dependencies which didnt load on npm install for some strange reason
 (
-  npm install wrench
-  npm install gulp-load-plugins
-  npm install gulp-shell
-  npm install wiredep
+  # npm install wrench
+  # npm install gulp-load-plugins
+  # npm install gulp-shell
+  # npm install wiredep
 )
 
 # Scope config var availability only to `npm install`
