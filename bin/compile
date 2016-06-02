@@ -85,6 +85,7 @@ fi
 # Install wrench
 (
   npm install wrench
+  npm install gulp-load-plugins
 )
 
 # Scope config var availability only to `npm install`
